@@ -1,17 +1,19 @@
 # Studio Bellecour
 
-Proposition personnalisée de site vitrine, non officielle et non publiée en production.
+Proposition de site vitrine, version mobile prioritaire. Code HTML/CSS/JavaScript sans dépendances ni compilation.
 
-HTML, CSS et JavaScript sans installation ni compilation. Ouvrir `index.html` dans un navigateur ou lancer `python3 -m http.server 8765` depuis ce dossier.
+## Aperçu
 
-## Parcours
+Depuis ce dossier : `python3 -m http.server 8765 --bind 127.0.0.1` puis ouvrir `http://127.0.0.1:8765/`.
 
-Présentation du lieu, photos fournies, prestations avec tarifs repères, accès au salon. Tous les boutons de réservation ouvrent la vraie fiche Planity. Téléphone et itinéraire sont des liens directs. Accordéons accessibles natifs et fenêtre d’information fermable au clavier. Aucun formulaire, traitement de données ou suivi publicitaire.
+## Direction
 
-## Sources et vérification
+Ivoire pierre, brun encre et accent bordeaux repris des fauteuils. Photographies du vrai salon. Ton chaleureux centré sur l’écoute. Un seul effet de miroir dans la photo d’accueil, désactivé si réduction des mouvements. Prestations en trois onglets avec navigation clavier, réservation Planity réelle, téléphone et itinéraire.
 
-Voir `PREPARATION.md`. Avant toute publication officielle : accord du salon, validation des droits sur les images, mentions légales, horaires et tarifs. Conserver la distinction entre proposition et site officiel jusqu’à validation. Les fichiers `robots.txt` et la balise robots découragent l’indexation ; ils ne constituent pas une protection d’accès.
+## Sources et contrôles
 
-## Direction artistique
+Voir `RECHERCHE-DESIGN.md` et `PREPARATION.md` : faits, sources, limites d’accès et vérifications. Aucun taux de conversion promis, aucune biographie inventée, aucun faux témoignage. Les liens de réservation ouvrent la fiche Planity ; notre code ne réserve pas de créneau lui-même. Aucun formulaire ni outil de suivi installé.
 
-Vert profond, papier ivoire et accents pierre ; titres à empattements, composition asymétrique et photographie d’accueil en arche. Le système graphique provient des vrais espaces du salon. Google Fonts fournit DM Sans et Playfair Display, avec des polices système de repli ; cette requête externe transmet les données techniques habituelles au fournisseur. Aucun visuel de coiffure, employé, avis ou résultat n’a été inventé.
+## Avant publication officielle
+
+Confirmer les droits des photographies, les coordonnées et horaires, l’identité de l’éditeur et les mentions légales ; effectuer la recette visuelle et fonctionnelle mobile/ordinateur. Cet aperçu reste une proposition non officielle. Noindex et robots.txt ne sont pas une protection d’accès.
