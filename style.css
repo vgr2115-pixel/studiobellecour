@@ -23,3 +23,6 @@
 .hero-work img{object-position:50% 58%}.work-card:nth-child(1) img{object-position:50% 53%}.work-card:nth-child(2) img{object-position:50% 50%}.work-card:nth-child(3) img{object-position:50% 50%}@media(max-width:800px){.hero-work img{object-position:50% 58%}}
 
 .hero-work img{object-position:50% 45%}@media(max-width:800px){.hero-work img{object-position:50% 45%}}
+
+/* Signature arch echoing the stone arches of the salon. */
+.hero-work .realisation-link{display:block;border-radius:50% 50% 4px 4px / 38% 38% 4px 4px;overflow:hidden}.hero-work img{border-radius:0;object-position:50% 45%}@media(max-width:800px){.hero-work .realisation-link{border-radius:50% 50% 4px 4px / 38% 38% 4px 4px}.hero-work img{border-radius:0;object-position:50% 45%}}
