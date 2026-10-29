@@ -91,3 +91,10 @@ La conversion visée est une réservation réellement réalisée. Un clic vers P
 Réussie : syntaxe JavaScript via Node ; HTTP 200 pour page, CSS, JS et photos du serveur local ; ancres, identifiants, relations des trois onglets/panneaux ; fichiers et descriptions d’images ; trois couleurs de base ; contrastes principaux.
 
 Limite : le navigateur de contrôle disponible à cet instant n’expose que les Apps MCP, pas l’onglet local que l’utilisateur consulte. Le serveur fonctionne, ce qui corrige la limite HTTP précédente ; la validation visuelle multi-écran et les interactions en navigateur restent à faire. Ne pas confondre ces vérifications statiques avec une recette complète.
+
+
+## Révision du 29 octobre 2026 — vitrine sobre
+À la demande du client : suppression des slogans et du miroir animé, titres factuels, prestations avant présentation du salon, catégories toutes visibles sans onglets. Corps de texte et détails utiles de 16 px minimum. Photographies rectangulaires non retouchées, trois couleurs (papier #F7F5F0, encre #292724, bordeaux #773C48), réservation sur Planity. Inspiration fonctionnelle de la fiche Planity, principe NN/g de suppression du bruit : https://www.nngroup.com/articles/aesthetic-minimalist-design/. Aucun âge, ancienneté ou parcours professionnel inventé.
+
+### Preuves de qualité
+Section Avis clients avant les photos : note de qualité des prestations 4,9/5 et extraits datés lus directement sur Planity le 29 octobre 2026. Les annuaires coiffeur.contact et Les Avisés répliquent des avis Google avec des volumes contradictoires (956/878) : ils ne constituent pas une vérification directe Google. Aucun badge « avis Google vérifiés » ni note Google repris. Les photos disponibles montrent le salon, pas des réalisations capillaires ; aucune photo de résultat inventée. Mesurer appels et réservations après publication serait nécessaire pour évaluer le retour commercial ; aucun gain de clientèle garanti.
