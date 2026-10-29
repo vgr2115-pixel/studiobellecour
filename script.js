@@ -17,16 +17,8 @@ if ('IntersectionObserver' in window) {
   }
   dock.classList.toggle('is-visible', visible.size === 0);
  }, { threshold: .1 });
- document.querySelectorAll('.hero-book, .final-book').forEach(button => observer.observe(button));
+ document.querySelectorAll('.hero-book, #contact, footer').forEach(button => observer.observe(button));
 }
-
-// Open a price category when reached from the salon introduction.
-document.querySelectorAll('.salon-services a').forEach(link => {
- link.addEventListener('click', () => {
-  const category = document.querySelector(link.getAttribute('href'));
-  if (category) category.open = true;
- });
-});
 
 const header = document.querySelector('.header');
 const menuButton = document.querySelector('.menu-toggle');
