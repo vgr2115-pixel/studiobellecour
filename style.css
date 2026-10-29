@@ -21,3 +21,5 @@
 .hero-work>a{border-radius:6px}.hero-work img{aspect-ratio:3/4;object-position:50% 47%;border-radius:6px}.hero-work .realisation-link{border-radius:6px}@media(max-width:800px){.hero-work>a,.hero-work .realisation-link{border-radius:6px}.hero-work img{aspect-ratio:3/4;object-position:50% 47%;border-radius:6px}}
 
 .hero-work img{object-position:50% 58%}.work-card:nth-child(1) img{object-position:50% 53%}.work-card:nth-child(2) img{object-position:50% 50%}.work-card:nth-child(3) img{object-position:50% 50%}@media(max-width:800px){.hero-work img{object-position:50% 58%}}
+
+.hero-work img{object-position:50% 45%}@media(max-width:800px){.hero-work img{object-position:50% 45%}}
