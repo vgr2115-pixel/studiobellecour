@@ -44,4 +44,11 @@ document.querySelectorAll('#main-navigation a').forEach(link => link.addEventLis
 document.addEventListener('keydown', event => {
  if (event.key === 'Escape' && header.classList.contains('menu-open')) closeMenu(true);
 });
-window.matchMedia('(max-width: 700px)').addEventListener('change', () => closeMenu());
+window.matchMedia('(max-width: 800px)').addEventListener('change', () => closeMenu());
+
+function openLinkedCategory() {
+ const target = document.getElementById(location.hash.slice(1));
+ if (target && target.matches("details")) target.open = true;
+}
+window.addEventListener("hashchange", openLinkedCategory);
+openLinkedCategory();
