@@ -19,3 +19,29 @@ if ('IntersectionObserver' in window) {
  }, { threshold: .1 });
  document.querySelectorAll('.hero-book, .final-book').forEach(button => observer.observe(button));
 }
+
+// Open a price category when reached from the salon introduction.
+document.querySelectorAll('.salon-services a').forEach(link => {
+ link.addEventListener('click', () => {
+  const category = document.querySelector(link.getAttribute('href'));
+  if (category) category.open = true;
+ });
+});
+
+const header = document.querySelector('.header');
+const menuButton = document.querySelector('.menu-toggle');
+function closeMenu(returnFocus = false) {
+ header.classList.remove('menu-open');
+ menuButton.setAttribute('aria-expanded', 'false');
+ if (returnFocus) menuButton.focus();
+}
+menuButton.addEventListener('click', () => {
+ const expanded = menuButton.getAttribute('aria-expanded') !== 'true';
+ menuButton.setAttribute('aria-expanded', String(expanded));
+ header.classList.toggle('menu-open', expanded);
+});
+document.querySelectorAll('#main-navigation a').forEach(link => link.addEventListener('click', () => closeMenu()));
+document.addEventListener('keydown', event => {
+ if (event.key === 'Escape' && header.classList.contains('menu-open')) closeMenu(true);
+});
+window.matchMedia('(max-width: 700px)').addEventListener('change', () => closeMenu());
