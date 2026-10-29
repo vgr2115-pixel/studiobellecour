@@ -135,3 +135,6 @@ Sélection éditoriale pour variété et lisibilité : accueil sur coiffage long
 
 ## Portrait et accès aux vidéos
 Portrait individuel de Murat trouvé sur sa fiche collaborateur Planity, original public inspecté visuellement. Version 720 px servie par Cloudinary sans retouche du visage ; fichier assets/murat-portrait.jpg. Galerie conservant les trois résultats sélectionnés pour cadrage et variété ; carte entière reliée au reel, indicateur lecture et lien Voir la vidéo. Lien générique Voir plus sur Instagram retiré de cette section. Le compte reste accessible dans les contacts. Aucun classement de beauté des clientes ni prétention de popularité chiffrée.
+
+### Dernière sélection photographique
+Comparaison renouvelée des douze vignettes accessibles. Accueil : DWOxvY-in0C, cliente seule au premier plan, cheveux longs volumineux, visage dégagé, absence de texte incrusté. Galerie : Da0S6bYqbhA pour un carré et davantage de variété, puis DeJjcFiuilz et DbLRGwOKB_G conservés à la demande du client. Cadrages CSS ajustés pour préserver le visage et le volume des cheveux ; images non retouchées. Vérification des quatre liens sur les pages de reels : attribution maintenue. Pas de nouvelles images de meilleure résolution accessibles dans les métadonnées publiques consultées.
